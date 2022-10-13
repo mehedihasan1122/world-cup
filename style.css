@@ -170,7 +170,7 @@ hr {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     width: 50%;
-    padding-left: 450px;
+    margin-left: 350px;
     padding-top: 50px;
 
 }
@@ -189,7 +189,7 @@ hr {
 
 
     .banner-left {
-        width: 100%;
+        width: 60%;
         height: 100%;
 
 
@@ -249,14 +249,22 @@ hr {
 
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        width: 50%;
-        padding-left: 170px;
-        row-gap: 20px;
+        width: 70%;
+
+        column-gap: 20px;
+        row-gap: 10px;
+
         align-items: center;
         justify-content: center;
+        margin-left: 100px;
+        margin-top: 0;
 
-        padding-top: 50px;
 
+
+    }
+
+    .footer-links a {
+        text-align: center;
     }
 
 
@@ -379,12 +387,16 @@ hr {
         width: 100%;
         color: white;
         padding: 0;
-        padding-top: 20px
+        padding-top: 20px;
+        margin: 0;
     }
 
     .footer-links a {
         color: white;
+        text-align: center;
     }
+
+
 
 
 
